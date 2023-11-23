@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:actionBarNavMode="standard">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="103dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/sett_iconic"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="41dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/per_iconic"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="clip_horizontal|fill|fill_horizontal"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        android:textColor="#A7A2A2"
+        tools:targetApi="o"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/passward"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/passward"
+        android:textColor="#888383"
+        tools:targetApi="o"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/email"
+        android:textColor="#7C7676"
+        tools:ignore="LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone Number"
+        android:textColor="#615B5A"
+        tools:targetApi="o"
+        tools:ignore="LabelFor,TextFields" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/loc_iconic"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/region"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Region"
+        android:textColor="#7C7474"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="427dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Street , Home Number"
+        android:textColor="#746F6F" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/pay_iconic"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:textColor="#7E7777" />
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/card_number"
+        android:textColor="#797070"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/mm_yy"
+        android:textColor="#746C6C"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|start|right"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/cvv_code"
+        android:textColor="#857A7A"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|end"
+        android:nextFocusDown="@id/action_cart"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@id/action_cart"
+        android:text="@string/cancel"
+        tools:visibility="visible" />
+
+</LinearLayout>
+</ScrollView>

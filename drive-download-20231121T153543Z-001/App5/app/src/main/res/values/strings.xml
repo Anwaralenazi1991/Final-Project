@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="phone_number">phone Number</string>
+    <string name="tudo">TODO</string>
+    <string name="todu">TODO</string>
+    <string name="username">UserName</string>
+    <string name="passward">Passward</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="region">Region</string>
+    <string name="street_home_number">Street , home number</string>
+    <string name="tudoo">TODO</string>
+    <string name="toduu">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="cvv_code">CVV Code</string>
+    <string name="card_number">Card Number</string>
+    <string name="mm_yy">MM / YY</string>
+    <string name="name">Name</string>
+    <string name="enter_address">Enter Address</string>
+</resources>
